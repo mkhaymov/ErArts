@@ -8,9 +8,12 @@
 <body>
   <p>If you are not redirected, <a id="destination-link">continue to the destination</a>.</p>
   <script>
-    const destination = "https://<erweb-site>/index.html?config=https://github.com/mkhaymov/ErArts/blob/main/config.json";
-    document.getElementById("destination-link").href = destination;
-    window.location.replace(destination);
+    const destination = new URL("https://<erweb-site>/index.html");
+    destination.searchParams.set(
+      "config",
+      new URL("./config.json", destination).href
+    );
+    window.location.replace(destination.href);
   </script>
 </body>
 </html>
