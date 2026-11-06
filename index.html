@@ -8,7 +8,7 @@
 <body>
   <p>If you are not redirected, <a id="destination-link">continue to the destination</a>.</p>
   <script>
-    const destination = new URL(https://mkhaymov.github.io/ErWeb/index.html");
+    const destination = new URL("https://mkhaymov.github.io/ErWeb/index.html");
     const configUrl = new URL("./config.json", window.location.href);
     destination.searchParams.set("config", configUrl.href);
     const link = document.getElementById("destination-link");
