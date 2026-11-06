@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Redirecting…</title>
-  <meta http-equiv="refresh" content="0;url=https://mkhaymov.github.io/ErWeb">
-  <script>
-    window.location.replace("https://mkhaymov.github.io/ErWeb");
-  </script>
 </head>
 <body>
-  <p>If you are not redirected, <a href="https://mkhaymov.github.io/ErWeb">continue to the destination</a>.</p>
+  <p>If you are not redirected, <a id="destination-link">continue to the destination</a>.</p>
+  <script>
+    const destination = "https://mkhaymov.github.io/ErWeb";
+    document.getElementById("destination-link").href = destination;
+    window.location.replace(destination);
+  </script>
 </body>
 </html>
