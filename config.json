@@ -6,5 +6,24 @@
   "imagesUrl": "images.json",
   "homePageUrl": "index.html",
   "galleryPageUrl": "gallery.html",
+   "about": [
+    {
+      "title": "Artist Statement",
+      "paragraphs": [
+        "I am using different media for my artwork..."
+      ]
+    },
+    {
+      "title": "About the Artist",
+      "paragraphs": [
+        "Elena Roginsky captures a moment..."
+      ]
+      [
+        "Paragraph2 aaaaa aaaaaaaaaaaaaaaaaaaaa ssssssssssssssssss ffffffffffff ggggggggggggggg hhhhhhhhhhhh
+         vvvvvvvv vvvvvvvvvvvv vvvvvvvvvvvvvvvvvv
+         cvcvb vv vv "
+      ]
+    }
+  ]
   "searchPlaceholder": "Type keywords (e.g., canvas, sunrise, forest)..."
 }
