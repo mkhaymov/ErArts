@@ -1,0 +1,17 @@
+{
+  "brandName": "Elena Roginsky Arts",
+  "logoUrl": "logo.jpeg",
+  "contactEmail": "eroginsky@yahoo.com",
+  "galleriesUrl": "galleries.json",
+  "ImgFolderUrl": "images/",
+  "measurementUnits": "\"",
+  "Selected": {
+    "title": "Watercolors",
+    "images": [
+      "Watercolor_001.jpg",
+      "Watercolor_002.jpg",
+      "Watercolor_003.jpg",
+      "Watercolor_004.jpg"
+    ]
+  }
+}
