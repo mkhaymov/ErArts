@@ -3,7 +3,7 @@
   "logoUrl": "logo.jpeg",
   "contactEmail": "eroginsky@yahoo.com",
   "galleriesUrl": "galleries.json",
-  "ImgFolderUrl": "images",
+  "ImgFolderUrl": "images/",
      "about": [
     {
       "title": "Artist Statement",
