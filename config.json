@@ -2,10 +2,8 @@
   "brandName": "Elena Roginsky Arts",
   "logoUrl": "logo.jpeg",
   "contactEmail": "eroginsky@yahoo.com",
-  "galleriesUrl": "galleries.json",
+  "galleries": "galleries.json",
   "imagesUrl": "images.json",
-  "homePageUrl": "index.html",
-  "galleryPageUrl": "gallery.html",
    "about": [
     {
       "title": "Artist Statement",
