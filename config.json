@@ -2,7 +2,7 @@
   "brandName": "Elena Roginsky Arts",
   "logoUrl": "logo.jpeg",
   "contactEmail": "eroginsky@yahoo.com",
-  "galleries": "galleries.json",
+  "galleriesUrl": "galleries.json",
   "imagesUrl": "images.json",
    "about": [
     {
